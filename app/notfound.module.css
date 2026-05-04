@@ -1,0 +1,18 @@
+.Container{
+    height: calc(100vh - 64px);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ErrorCode{
+    color: #e1e1e1;
+    font-weight: bold;
+    font-size: 72px;
+    text-align: center;
+}
+.Description{
+    color: #e1e1e1;
+    font-size: 20px;
+}

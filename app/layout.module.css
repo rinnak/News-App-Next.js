@@ -1,0 +1,120 @@
+.Body{
+    width: 100%;
+    min-height:100vh;
+    position: relative;
+    padding: 0;
+    margin: 0;
+
+}
+
+.Html{
+    background: #181818;
+}
+
+.Header{
+    font-size: 24px;
+    background: #111;
+    z-index: 100;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.Grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.Card{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.CardLink:hover{
+    transform: scale(1.01);
+    transition: 0.3s ease;
+}
+
+.CardLink{
+    background: #323232;
+    overflow: hidden;
+    border-radius: 12px;
+    display: block;
+}
+.ImageWrapper{
+    aspect-ratio: 16 /9;
+    background-color: #222;
+    width: 100%;
+    overflow: hidden;
+}
+
+.Image{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.Type{
+    font-size: 16px;
+    color: #007bff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.Content{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex-grow: 1;
+}
+
+.Text{
+    font-size: 16px;
+    color: #ccc;
+
+}
+
+.Date{
+    font-size: 10px;
+    color: #666;
+    margin-top: auto;
+}
+
+.Container{
+    max-width: 800px;
+    margin: 40px auto;
+}
+
+.ImageWrapper{
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16 /9;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.Image {
+    object-fit: cover;
+}
+.NewTitle{
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.Text{
+    font-size: 18px;
+    margin-top: 12px;
+}
+
+.Modal{
+    z-index: 999;
+}
