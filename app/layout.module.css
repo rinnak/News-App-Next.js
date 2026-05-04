@@ -9,8 +9,12 @@
 
 .Html{
     background: #181818;
+    color: white;
 }
 
+.Body{
+    background: #181818;
+}
 .Header{
     font-size: 24px;
     background: #111;
@@ -19,6 +23,7 @@
     position: sticky;
     top: 0;
     left: 0;
+    color: white;
     width: 100%;
 }
 
